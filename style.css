@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    font-style: italic;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  nav {
+    background-color: #17e655;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /* Añadido: Espacio entre elementos */
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    position: relative; /* Añadido: Posición relativa para el elemento contenedor */
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Estilos para la flecha del menú oculto */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 20px; /* Ajusta la posición de la flecha */
+    left: 0;
+  }
+
+  .dropdown-content:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f9f9f9 transparent; /* Color de fondo del menú oculto */
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Estilos para la flecha en el menú */
+  .tdb-sub-menu-icon {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  section {
+    margin: 20px;
+    font-optical-sizing: auto;
+    width: 75%;
+  }
+#registro-section {
+background-color: #ffffff;
+position:relative;  
+top:2px;
+border-radius: 10px;
+top: 20px;
+display: grid;
+padding: 10px;
+}
+#contacto-block{
+background-color: #ffffff;
+border-radius: 10px;
+padding-left: 1%;
+width: 20%;
+float: right;
+justify-content: right;
+position: relative;
+display: block;
+bottom: 270px;
+}
+.registro-container {
+width: 99999px;
+}
+
+#registro-form {
+  margin-right: 10px;
+}
+
+  h1, h2 {
+    color: #333;
+  }
+
+  footer {
+    background-color: #17e655;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+.div:first-of-type {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 15px;
+  line-height: 32px;
+}
+
+.input {
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #17e655;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+.input:checked {
+  border: 6px solid black;
+}
+
+.button, legend {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 14px;
+}
+
+.button:hover,
+button:focus {
+  color:#17e655;
+}
+
+.button:active {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
+}
+#buscar{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: 0.4rem 0;
+    float: right;
+}
+#buscar,.button {
+  border-radius: 10px;
+  color: #17e655;
+}
+#wordpress-section{
+background-color:white;
+border-radius: 10px;
+padding: 10px;
+}
+#google-ads-section{
+background-color: #17e655;
+border-radius: 10px;
+padding: 10px;
+}
+#web-pages-section{
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+}

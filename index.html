@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Ganar dinero en línea</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      }
+
+      header {
+      font-style: italic;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      }
+
+      nav {
+      background-color: #17e655;
+      color: #fff;
+      padding: 5px;
+      border-radius: 10px;
+      }
+
+      nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly; /* Añadido: Espacio entre elementos */
+      }
+
+      nav ul li {
+      display: inline;
+      margin-right: 10px;
+      position: relative; /* Añadido: Posición relativa para el elemento contenedor */
+      }
+
+      nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      }
+
+      /* Estilos para la flecha del menú oculto */
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      top: 20px; /* Ajusta la posición de la flecha */
+      left: 0;
+      }
+
+      .dropdown-content:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent #f9f9f9 transparent; /* Color de fondo del menú oculto
+      */
+      }
+
+      .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      }
+
+      .dropdown:hover .dropdown-content {
+      display: block;
+      }
+
+      /* Estilos para la flecha en el menú */
+      .tdb-sub-menu-icon {
+      display: inline-block;
+      margin-left: 5px;
+      vertical-align: middle;
+      }
+
+      section {
+      margin: 20px;
+      font-optical-sizing: auto;
+      width: 75%;
+      }
+      #registro-section {
+      background-color: #ffffff;
+      position:relative;
+      top:2px;
+      border-radius: 10px;
+      top: 20px;
+      display: grid;
+      padding: 10px;
+      }
+      #contacto-block{
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding-left: 1%;
+      width: 20%;
+      float: right;
+      justify-content: right;
+      position: relative;
+      display: block;
+      bottom: 270px;
+      }
+      .registro-container {
+      width: 99999px;
+      }
+
+      #registro-form {
+      margin-right: 10px;
+      }
+
+      h1, h2 {
+      color: #333;
+      }
+
+      footer {
+      background-color: #17e655;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      }
+
+      .div:first-of-type {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 5px;
+      }
+
+      label {
+      margin-right: 15px;
+      line-height: 32px;
+      }
+
+      .input {
+      appearance: none;
+
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+
+      border: 2px solid #17e655;
+      transition: 0.2s all linear;
+      margin-right: 5px;
+
+      position: relative;
+      top: 4px;
+      }
+
+      .input:checked {
+      border: 6px solid black;
+      }
+
+      .button, legend {
+      color: white;
+      background-color: black;
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: 0;
+      font-size: 14px;
+      }
+
+      .button:hover,
+      button:focus {
+      color:#17e655;
+      }
+
+      .button:active {
+      background-color: white;
+      color: black;
+      outline: 1px solid black;
+      }
+      #buscar{
+      display: block;
+      font: 1rem 'Fira Sans', sans-serif;
+      margin: 0.4rem 0;
+      float: right;
+      }
+      #buscar,.button {
+      border-radius: 10px;
+      color: #17e655;
+      }
+      #wordpress-section{
+      background-color:white;
+      border-radius: 10px;
+      padding: 10px;
+      }
+      #google-ads-section{
+      background-color: #17e655;
+      border-radius: 10px;
+      padding: 10px;
+      }
+      #web-pages-section{
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="background-image: url('./negocio/dinero.jpg');">
+      <h1>
+        <b>Ganar dinero en línea</b>
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Inicio</a>
+          <div class="dropdown-content">
+            <a href="#wordpress-section">WordPress</a>
+            <a href="#google-ads-section">GoogleADS</a>
+            <a href="#web-pages-section">Webs</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">Acerca de</a>
+          <div class="dropdown-content">
+            <a href="#acerca-de-section">Información</a>
+            <a href="#registro-section">Registro</a>
+          </div>
+          <span class="tdb-sub-menu-icon td-icon-down"></span>
+        </li>
+        <li class="dropdown">
+          <a href="#">Servicios</a>
+          <div class="dropdown-content">
+            <a href="#servicios-section">Descripción</a>
+            <a href="#contacto-section">Contacto</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <calss id="buscar">
+      <form>
+        <div>
+          <input type="search" id="mySearch" name="q" placeholder="Search the site…" size="30" />
+          <button>buscar</button>
+        </div>
+      </form>
+    </calss>
+
+    <section id="registro-section">
+      <div>
+        <h2>Registro</h2>
+        <p>¡Únete a nuestra comunidad y accede a contenidos y servicios exclusivos! Completa el
+          siguiente formulario de
+          registro para crear una cuenta en nuestro sitio web:</p>
+        <form class="registro-form">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+
+          <label for="contrasena">Contraseña:</label>
+          <input type="password" id="contrasena" name="contrasena" required>
+
+          <button type="submit">Registrarse</button>
+          <br>
+          <fieldset>
+            <legend>Por favor, selecciona tu método de contacto preferido:</legend>
+            <div>
+              <input type="radio" id="contactChoice1" name="contact" value="email" checked />
+              <label for="contactChoice1">Email</label>
+
+              <input type="radio" id="contactChoice2" name="contact" value="phone" />
+              <label for="contactChoice2">Teléfono</label>
+
+              <input type="radio" id="contactChoice3" name="contact" value="mail" />
+              <label for="contactChoice3">Sign up</label>
+            </div>
+            <div>
+              <button type="submit">Enviar</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <calss id="contacto-block">
+      <h2>Contacto</h2>
+      <p>Estamos aquí para ayudarte. Si tienes alguna pregunta, consulta o sugerencia, no dudes en
+        ponerte en contacto con
+        nosotros. Estaremos encantados de atenderte. Utiliza la siguiente información de contacto
+        para comunicarte con
+        nuestro equipo:</p>
+      <div class="contacto-info">
+        <p>Número de contacto: <a href="tel:641026370">+34641026370</a></p>
+      </div>
+    </calss>
+    <section id="acerca-de-section">
+      <h2>Acerca de</h2>
+      <p>Bienvenido a nuestro sitio web de ganar dinero en línea. Aquí encontrarás oportunidades y
+        recursos para aumentar
+        tus ingresos desde la comodidad de tu hogar. Al unirte como usuario registrado, podrás
+        acceder a beneficios
+        exclusivos, tales como:</p>
+      <ul>
+        <li>Contenido premium y actualizado sobre estrategias para ganar dinero en línea.</li>
+        <li>Herramientas y recursos para maximizar tus ganancias y optimizar tus actividades en
+          línea.</li>
+        <li>Acceso a una comunidad de emprendedores en línea, donde podrás compartir ideas y
+          experiencias.</li>
+        <li>Notificaciones sobre las últimas oportunidades y tendencias en el ámbito de los negocios
+          en línea.</li>
+      </ul>
+      <p>¡Únete a nuestra comunidad de personas que buscan alcanzar la libertad financiera y
+        descubre nuevas formas de
+        generar ingresos en línea!</p>
+    </section>
+    <section id="servicios-section">
+      <h2>Servicios</h2>
+      <p>En nuestro sitio web, ofrecemos una amplia gama de servicios diseñados para ayudarte a
+        ganar dinero en línea y
+        alcanzar tus metas financieras. Al unirte como usuario registrado, podrás disfrutar de los
+        siguientes servicios y
+        beneficios exclusivos:</p>
+      <ul>
+        <li>Entrenamiento personalizado: Recibirás tutoriales y guías paso a paso para aprender
+          estrategias probadas y
+          efectivas para generar ingresos en línea.</li>
+        <li>Herramientas de análisis y seguimiento: Tendrás acceso a herramientas avanzadas que te
+          permitirán medir y
+          optimizar el rendimiento de tus actividades en línea.</li>
+        <li>Soporte especializado: Nuestro equipo de expertos estará disponible para responder tus
+          preguntas y brindarte
+          asesoramiento personalizado en tu camino hacia el éxito financiero.</li>
+        <li>Oportunidades exclusivas: Te mantendremos actualizado con las últimas oportunidades de
+          negocio, colaboraciones
+          estratégicas y lanzamientos de productos para que puedas aprovechar al máximo tu potencial
+          de ganancias.</li>
+      </ul>
+      <p>Ya sea que estés comenzando tu camino en línea o busques expandir tu negocio existente,
+        nuestros servicios te
+        brindarán las herramientas y el apoyo necesarios para tener éxito en el mundo digital.</p>
+    </section>
+
+    <section id="wordpress-section">
+      <h2>1.Ganar dinero desde WordPress</h2>
+      <p>WordPress es una plataforma de gestión de contenido muy utilizada que ofrece diversas
+        formas de ganar dinero en
+        línea. Algunas opciones incluyen:</p>
+      <ul>
+        <li><b>Crear y monetizar un blog:</b> Puedes generar ingresos a través de publicidad (como
+          Google AdSense), marketing de afiliados o incluso ofreciendo contenido exclusivo a través
+          de membresías pagas.</li>
+        </br>
+        <li><b>Desarrollo de temas y plugins:</b> Si tienes habilidades de diseño y desarrollo,
+          puedes crear y vender temas y plugins personalizados para otros usuarios de WordPress.</li>
+        </br>
+        <li><b>Ofrecer servicios de diseño web:</b> Si eres experto en diseño web, puedes ofrecer
+          tus servicios para crear y personalizar sitios web utilizando WordPress.</li>
+        </br>
+        <li><b>Creación y venta de temas y plugins:</b> Si tienes habilidades de desarrollo web,
+          puedes crear temas y plugins personalizados para WordPress y venderlos en línea. Hay una
+          gran demanda de temas y plugins premium que ofrecen funcionalidades adicionales y diseños
+          únicos para los sitios web de los usuarios de WordPress.</li>
+        </br>
+        <li><b>Servicios de diseño y desarrollo web:</b> Puedes ofrecer servicios de diseño y
+          desarrollo web utilizando WordPress como plataforma. Muchas personas y empresas están
+          dispuestas a pagar por profesionales que les ayuden a crear y personalizar sus sitios web
+          utilizando WordPress.</li>
+        </br>
+        <li><b>Marketing de afiliados:</b> Puedes utilizar tu sitio web de WordPress para
+          promocionar productos o servicios de otras empresas a través del marketing de afiliados.
+          Te asocias con empresas y, a través de enlaces especiales, ganas comisiones por cada venta
+          o acción que se realice a través de tu sitio web.</li>
+        </br>
+        <li><b>Publicidad:</b> Si tu sitio web de WordPress tiene un tráfico considerable, puedes
+          monetizarlo mediante la colocación de anuncios. Puedes utilizar servicios como Google
+          AdSense para mostrar anuncios relevantes en tu sitio y ganar dinero cada vez que los
+          usuarios hagan clic en ellos.</li>
+        </br>
+        <li><b>Creación de contenido patrocinado:</b> Si tienes un blog o sitio web con una
+          audiencia comprometida, puedes colaborar con empresas para crear contenido patrocinado.
+          Las empresas te pagarán por escribir reseñas de productos, publicar artículos
+          promocionales o promover sus servicios a través de tu plataforma.</li>
+        </br>
+        <li><b>Cursos en línea y membresías:</b> Si eres experto en algún tema o tienes habilidades
+          especiales, puedes crear y vender cursos en línea a través de tu sitio de WordPress.
+          También puedes ofrecer membresías premium con contenido exclusivo para tus seguidores, lo
+          que les permitirá acceder a material adicional y obtener beneficios especiales.</li>
+        </br>
+      </ul>
+    </section>
+
+    <section id="google-ads-section">
+      <h2>2.Ganar dinero con Google Ads</h2>
+      <p>Google Ads es una plataforma de publicidad en línea que te permite mostrar anuncios en tu
+        sitio web y obtener
+        ingresos a través de ellos. Aquí tienes algunas estrategias para aprovechar Google Ads y
+        ganar dinero:</p>
+      <ul>
+        <li><b>ístrate en Google AdSense:</b> Al incorporar anuncios relevantes en tu sitio web,
+          recibirás pagos por clics o impresiones de los anuncios.</li>
+        </br>
+        <li><b>tus contenidos y SEO:</b> Aumenta el tráfico cualificado a tu sitio web mediante la
+          optimización de palabras clave y la creación de contenido de calidad. Esto mejorará tus
+          ingresos potenciales de los anuncios. </li>
+        </br>
+        <li><b>Explora otras opciones publicitarias:</b> Además de Google AdSense, existen otras
+          redes publicitarias que te permiten monetizar tu sitio web, como Media.net o propias de
+          nichos específicos.</li>
+        </br>
+        <li><b>Programa de publicidad de Google AdSense:</b>AdSense es una plataforma de Google que
+          permite a los propietarios de sitios web y blogs mostrar anuncios relevantes en sus
+          páginas y ganar dinero por cada clic o impresión generada por los visitantes. Para unirte
+          a AdSense, debes cumplir con ciertos requisitos, como tener un sitio web de calidad con
+          contenido original y cumplir con las políticas de Google. Una vez aprobado, puedes
+          personalizar los anuncios y colocarlos en tu sitio web. Google se encarga de seleccionar
+          los anuncios relevantes para tu contenido y tú ganas dinero cada vez que los visitantes
+          hacen clic en esos anuncios.</li>
+        </br>
+        <li><b>Canales de YouTube y monetización:</b>Si tienes un canal de YouTube con una cantidad
+          suficiente de suscriptores y visualizaciones, puedes solicitar la monetización de tu canal
+          a través del programa de socios de YouTube. Una vez aprobado, puedes activar la opción de
+          mostrar anuncios en tus videos y ganar dinero por cada reproducción y clic en los
+          anuncios. También puedes utilizar la función de Super Chat y los enlaces patrocinados en
+          tus videos para obtener ingresos adicionales.</li>
+        </br>
+        <li><b>Marketing de afiliados:</b>Aunque no es directamente parte de Google Ads, puedes
+          combinar el marketing de afiliados con los anuncios de Google en tu sitio web o blog para
+          maximizar tus ingresos. El marketing de afiliados consiste en promocionar productos o
+          servicios de otras empresas y ganar una comisión por cada venta o acción realizada a
+          través de tus enlaces de afiliado. Puedes encontrar programas de afiliados en diversas
+          plataformas, como Amazon Associates, ClickBank y ShareASale, entre otros.</li>
+        </br>
+        <li><b>Publicidad en aplicaciones móviles:</b>Si tienes una aplicación móvil, puedes
+          utilizar Google AdMob, la plataforma de publicidad en aplicaciones móviles de Google, para
+          mostrar anuncios relevantes y ganar dinero por cada clic o impresión generada por los
+          usuarios de la aplicación.</li>
+        </br>
+        <li><b>Red de Display de Google:</b>Además de AdSense, Google Ads también ofrece la opción
+          de mostrar anuncios en la Red de Display de Google, que incluye una amplia variedad de
+          sitios web y aplicaciones asociadas a Google. Puedes utilizar la Red de Display para
+          promocionar tu propio negocio, productos o servicios, o incluso para vender espacios
+          publicitarios en tu sitio web a otros anunciantes.</li>
+        </br>
+        <li><b>Remarketing:</b>El remarketing es una estrategia que te permite mostrar anuncios
+          específicos a las personas que ya han visitado tu sitio web. Puedes configurar campañas de
+          remarketing en Google Ads para dirigirte a esos usuarios y recordarles tu marca o
+          promociones. Esto puede ser especialmente efectivo para aumentar las conversiones y
+          generar ventas adicionales.</li>
+        </br>
+        <li><b>Optimización de anuncios:</b>Google Ads ofrece herramientas y opciones de
+          optimización que te ayudan a maximizar tus ingresos. Puedes realizar pruebas A/B para
+          probar diferentes versiones de tus anuncios y determinar cuál genera mejores resultados.
+          También puedes utilizar palabras clave relevantes y segmentar tus anuncios para llegar a
+          audiencias específicas que sean más propensas a hacer clic en ellos.</li>
+        </br>
+        <li><b>Anuncios de búsqueda y palabras clave:</b>Si tienes un negocio en línea, puedes
+          utilizar Google Ads para mostrar anuncios en los resultados de búsqueda de Google cuando
+          las personas realicen búsquedas relacionadas con tus productos o servicios. Puedes
+          seleccionar palabras clave relevantes y establecer una estrategia de puja para competir
+          por la aparición de tus anuncios en los resultados de búsqueda.</li>
+        </br>
+        <li><b>Anuncios de video:</b>Además de los anuncios en texto, Google Ads te permite mostrar
+          anuncios en formato de video en YouTube y otros sitios asociados. Puedes crear anuncios de
+          video atractivos y segmentarlos para llegar a tu audiencia objetivo.</li>
+        </br>
+        <li><b>Informes y análisis:</b>Google Ads proporciona herramientas de informes y análisis
+          para que puedas medir y evaluar el rendimiento de tus anuncios. Puedes obtener información
+          sobre el número de clics, impresiones, conversiones y otros datos relevantes para
+          optimizar tus estrategias publicitarias y maximizar tus ganancias </li>
+        </br>
+      </ul>
+    </section>
+
+    <section id="web-pages-section">
+      <h2>3.Ganar dinero con páginas web</h2>
+      <p>Tener tu propia página web ofrece oportunidades para generar ingresos en línea. Aquí hay
+        algunas formas populares
+        de ganar dinero con páginas web:</p>
+      <ul>
+        <li><b>Venta de productos o servicios:</b> Utiliza tu página web como una plataforma de
+          comercio electrónico para vender productos físicos o digitales, o para ofrecer servicios
+          profesionales.</li>
+        </br>
+        <li><b>Marketing de afiliados:</b> Promociona productos o servicios de otras personas en tu
+          página web y gana comisiones por cada venta o acción realizada a través de tus enlaces de
+          afiliados.El marketing de afiliados consiste en promocionar productos o servicios de otras
+          empresas en tu página web y ganar una comisión por cada venta o acción que se realice a
+          través de tus enlaces de afiliado. Puedes unirte a programas de afiliados de empresas
+          relevantes para tu nicho y promocionar sus productos a través de reseñas, tutoriales,
+          banners, enlaces de texto, etc.</li>
+        </br>
+        <li><b>Creación y venta de contenido digital:</b> Crea y vende cursos en línea, ebooks,
+          música, fotografías u otros recursos digitales que sean relevantes para tu audiencia.Si
+          tienes habilidades en la creación de productos digitales, como libros electrónicos, cursos
+          en línea, plantillas, música, fotografías, etc., puedes crear y vender esos productos
+          directamente en tu página web.</li>
+        </br>
+        <li><b>Publicidad:</b> Una de las formas más comunes de ganar dinero con una página web es
+          mediante la colocación de anuncios. Puedes utilizar programas de publicidad como Google
+          AdSense o Media.net para mostrar anuncios relevantes en tu sitio. Ganarás dinero cada vez
+          que los visitantes hagan clic en los anuncios (pago por clic) o cada vez que se muestren
+          (pago por impresiones).</li>
+        </br>
+        <li><b>Venta de productos o servicios:</b>Si tienes un negocio en línea, puedes utilizar tu
+          página web para vender tus propios productos o servicios. Puedes configurar una tienda en
+          línea y aceptar pagos directamente desde tu sitio web. Esto te permite tener un mayor
+          control sobre tus ventas y ganancias.</li>
+        </br>
+        <li><b>Contenido premium o membresías:</b>Puedes ofrecer contenido exclusivo o membresías
+          premium en tu página web a cambio de una tarifa mensual o anual. Esto puede incluir acceso
+          a contenido adicional, recursos especiales, asesoramiento personalizado u otros beneficios
+          exclusivos para los miembros.</li>
+        </br>
+        <li><b>Patrocinios y publicidad directa:</b>Si tu página web tiene un tráfico considerable y
+          una audiencia comprometida, puedes buscar patrocinadores que estén dispuestos a pagar por
+          la colocación de anuncios directamente en tu sitio web. Esto puede ser a través de
+          banners, menciones en el contenido, reseñas de productos patrocinados, etc.</li>
+        </br>
+        <li><b>Servicios de consultoría o freelance:</b>Si tienes conocimientos especializados en un
+          área específica, puedes ofrecer servicios de consultoría o freelance a través de tu página
+          web. Puedes promocionar tus servicios y permitir que los clientes potenciales te contacten
+          directamente.</li>
+        </br>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2023 New World. Todos los derechos reservados.</p>
+    </footer>
+    <script> const dropdowns = document.getElementsByClassName('dropdown'); for (let i = 0; i < dropdowns.length
+        ; i++) {
+        dropdowns[i].addEventListener('click' , function () {
+        this.classList.toggle('active' );
+        const dropdownContent= this.getElementsByClassName('dropdown-content' )[0];
+        dropdownContent.style.display= dropdownContent.style.display=== 'block' ? 'none' : 'block';
+      });
+    }
+    </script>
+  </body>
+
+</html>
